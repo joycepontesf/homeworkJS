@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Programando com JavaScript</h1>
+
+  <div class="box">
+    <h2>Calculadora de MDC</h2>
+    <form id="formMDC">
+      <label for="numero1">Informe o primeiro número:</label>
+      <input type="number" id="numero1" name="numero1" required>
+      <br>
+      <label for="numero2">Informe o segundo número:</label>
+      <input type="number" id="numero2" name="numero2" required>
+      <br>
+      <button type="submit">Calcular MDC</button>
+    </form>
+    <p id="resultadoMDC"></p>
+  </div>
+
+  <div class="box">
+    <h2>Encontrar índices</h2>
+    <form id="formIndices">
+      <label for="arrayInput">Informe os números separados por vírgula:</label>
+      <input type="text" id="arrayInput" name="arrayInput" required>
+      <br>
+      <button type="submit">Encontrar Índices</button>
+    </form>
+    <p id="resultadoIndices"></p>
+  </div>
+
+  <div class="box">
+    <h2>Calcular soma de múltiplos</h2>
+    <form id="formSomaMultiplos">
+      <button type="submit">Calcular Soma de Múltiplos de 5 ou 7 abaixo de 1000</button>
+    </form>
+    <p id="resultadoSomaMultiplos"></p>
+  </div>
+
+  <script src="calcularMDC.js"></script>
+  <script src="indice.js"></script>
+  <script src="somarMultiplos.js"></script>
+
+</body>
+</html>
