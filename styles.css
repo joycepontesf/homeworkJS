@@ -15,12 +15,12 @@ body {
   }
   
   form {
-    margin-bottom: 15px; /* Aumenta o espaçamento entre os formulários */
+    margin-bottom: 15px;
   }
   
   form label {
-    margin-bottom: 10px; /* Aumenta o espaçamento entre rótulo e input */
-    display: inline-block; /* Faz com que cada label ocupe uma linha separada */
+    margin-bottom: 10px;
+    display: inline-block;
   }
   
   button {
@@ -28,7 +28,7 @@ body {
     font-size: 16px;
     background-color: green;
     color:white;
-    margin-top: 10px; /* Adiciona espaçamento acima dos botões */
+    margin-top: 10px;
   }
   
   p {
